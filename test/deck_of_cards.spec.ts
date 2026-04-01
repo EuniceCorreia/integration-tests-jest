@@ -12,7 +12,7 @@ describe('Deck of cards', () => {
 
   beforeAll(() => p.reporter.add(rep));
   afterAll(() => p.reporter.end());
-
+//teste
   describe('DECK', () => {
     it('New Deck', async () => {
       deckId = await p
